@@ -98,6 +98,9 @@ public class Main {
                         noun9,adjective10, verb3, adjective11);
 
             }
+            else if(begin == 2){
+                System.out.println("Nice! You chose Pizza, let's do it!");
+            }
 
         }
 
