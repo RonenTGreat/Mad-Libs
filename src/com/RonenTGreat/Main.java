@@ -22,8 +22,12 @@ public class Main {
             else if(begin == 1){
                 System.out.println("Good! Let's start. You chose Star Wars!");
                 System.out.println("Please enter the following inputs.");
+                System.out.print("Enter an adjective: ");
+                String adjective1 = keyboard.nextLine();
+                System.out.print("Enter a noun: ");
 
-                continue;
+
+
             }
 
         }
