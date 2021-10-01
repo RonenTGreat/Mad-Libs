@@ -86,6 +86,7 @@ public class Main {
 
                         ------------------------------------------------
                         """);
+
                 System.out.printf("Star War is a %s %s of %s versus evil in a %s far far away.%n", adjective1, noun1,
                         adjective2, noun2);
                 System.out.println("There are " + adjective3 + " battles between " + adjective4 + " " + noun3 + " in "
@@ -100,6 +101,40 @@ public class Main {
             }
             else if(begin == 2){
                 System.out.println("Nice! You chose Pizza, let's do it!");
+                System.out.println("Please enter the following inputs.");
+                System.out.print("Enter an adjective: ");
+                String adjective1 = keyboard.next();
+                System.out.print("Enter a nationality: ");
+                String nationality = keyboard.next();
+                System.out.print("Enter a person's name: ");
+                String person = keyboard.next();
+                System.out.print("Enter a noun: ");
+                String noun1 = keyboard.next();
+                System.out.print("Enter an adjective: ");
+                String adjective2 = keyboard.next();
+                System.out.print("Enter a noun: ");
+                String noun2 = keyboard.next();
+                System.out.print("Enter an adjective: ");
+                String adjective3 = keyboard.next();
+                System.out.print("Enter an adjective: ");
+                String adjective4 = keyboard.next();
+                System.out.print("Enter a plural noun: ");
+                String noun3 = keyboard.next();
+                System.out.print("Enter a noun: ");
+                String noun4 = keyboard.next();
+                System.out.print("Enter a number: ");
+                String number1 = keyboard.next();
+                System.out.print("Enter a shape: ");
+                String shape = keyboard.next();
+                System.out.print("Enter a food: ");
+                String food1 = keyboard.next();
+                System.out.print("Enter a food: ");
+                String food2 = keyboard.next();
+                System.out.print("Enter a number: ");
+                String number2 = keyboard.next();
+
+                System.out.println("Pizza");
+
             }
 
         }
