@@ -133,7 +133,17 @@ public class Main {
                 System.out.print("Enter a number: ");
                 String number2 = keyboard.next();
 
-                System.out.println("Pizza");
+                System.out.println("-------------------------------------------------");
+                System.out.println("");
+
+                System.out.printf("Pizza was invented by a %s %s chef named %s. To make a pizza, you need to take a lump" +
+                        " of %s, and make a thin, round %s %s. Then you cover it with %s sauce, %s  cheese, and fresh " +
+                                " chopped %s. Next you have to bake it in a vert hot %s. When it is done, cut it into %s " +
+                                "%s. Some kids like %s pizza the best, but my favourite is the %s pizza. If I could, I " +
+                                " would eat pizza %s times a day!"
+                            ,adjective1, nationality, person, noun1, adjective2, noun2, adjective3, adjective4, noun3, noun4,
+                            number1, shape, food1, food2, number2);
+
 
             }
 
