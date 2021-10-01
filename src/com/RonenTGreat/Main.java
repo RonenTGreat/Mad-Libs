@@ -68,9 +68,30 @@ public class Main {
                 String verb3 = keyboard.next();
                 System.out.print("Enter an adjective: ");
                 String adjective11 = keyboard.next();
-                System.out.println("----------------");
-                System.out.println("Star Wars Mad Libs");
-                System.out.println("Star");
+
+                System.out.println("-------------------------------------------------");
+                System.out.println("      ________________.  ___     .______\n" +
+                        "     /                | /   \\    |   _  \\\n" +
+                        "    |   (-----|  |----`/  ^  \\   |  |_)  |\n" +
+                        "     \\   \\    |  |    /  /_\\  \\  |      /\n" +
+                        ".-----)   |   |  |   /  _____  \\ |  |\\  \\-------.\n" +
+                        "|________/    |__|  /__/     \\__\\| _| `.________|\n" +
+                        " ____    __    ____  ___     .______    ________.\n" +
+                        " \\   \\  /  \\  /   / /   \\    |   _  \\  /        |\n" +
+                        "  \\   \\/    \\/   / /  ^  \\   |  |_)  ||   (-----`\n" +
+                        "   \\            / /  /_\\  \\  |      /  \\   \\\n" +
+                        "    \\    /\\    / /  _____  \\ |  |\\  \\---)   |\n" +
+                        "     \\__/  \\__/ /__/     \\__\\|__| `._______/\n" +
+                        "\n" +
+                        "------------------------------------------------\n");
+                System.out.printf("Star War is a %s %s of %s versus evil in a %s far far away.%n", adjective1, noun1, adjective2, noun2);
+                System.out.println("There are " + adjective3 + " battles between " + adjective4 + " " + noun3 + " in " + adjective5 + " space and " + adjective6 + " duels with " + noun4 + " called " + adjective7 + " sabers.");
+                System.out.printf("%s called \"droids\" are helpers and %s" +
+                        " to the heroes.%n", noun5.toUpperCase(), noun6);
+                System.out.printf("A %s power called the %s %ss people to do %s " +
+                        " things, like %s %s.%n",adjective8, noun6.toUpperCase(),verb1,adjective9,verb2,noun7);
+                System.out.printf("The Jedi %s use The Force for %s side and the Sith %s it for the %s side.%n",
+                        noun8,adjective10, verb3, adjective11);
 
             }
 
