@@ -10,7 +10,7 @@ public class Main {
         while (true){
             System.out.println("Welcome to Mad Libs please select any of the mad libs to start");
             System.out.println("0: Quit");
-            System.out.println("1:  STAR WARS");
+            System.out.println("1: STAR WARS");
             System.out.println("2: PIZZA");
             System.out.println("3: HAUNTED HOUSE");
             System.out.println("4: MOON LANDING");
@@ -92,9 +92,9 @@ public class Main {
                 System.out.println("There are " + adjective3 + " battles between " + adjective4 + " " + noun3 + " in "
                         + adjective5 + " space and " + adjective6 + " duels with " + noun4 + " called " + adjective7 + " sabers.");
                 System.out.printf("%s called \"droids\" are helpers and %s" +
-                        " to the heroes.%n", noun5.toUpperCase(), noun6);
+                        " to the heroes.%n", noun5, noun6);
                 System.out.printf("A %s power called The %s %ss people to do %s " +
-                        " things, like %s %s.",adjective8, noun7.toUpperCase(),verb1,adjective9,verb2,noun8);
+                        " things, like %s %s.",adjective8, noun7,verb1,adjective9,verb2,noun8);
                 System.out.printf("The Jedi %s use The Force for %s side and the Sith %s it for the %s side.%n",
                         noun9,adjective10, verb3, adjective11);
 
@@ -134,13 +134,31 @@ public class Main {
                 String number2 = keyboard.next();
 
                 System.out.println("-------------------------------------------------");
-                System.out.println("");
+                System.out.println("""
+                        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣤⣶⣶⣦⣄⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⣿⣿⣿⣿⣿⣿⣿⣷⣦⡀⠀⠀⠀⠀⠀⠀
+                        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣷⣤⠀⠈⠙⢿⣿⣿⣿⣿⣿⣦⡀⠀⠀⠀⠀
+                        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣿⣿⣿⠆⠰⠶⠀⠘⢿⣿⣿⣿⣿⣿⣆⠀⠀⠀
+                        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣼⣿⣿⣿⠏⠀⢀⣠⣤⣤⣀⠙⣿⣿⣿⣿⣿⣷⡀⠀
+                        ⠀⠀⠀⠀⠀⠀⠀⠀⢠⠋⢈⣉⠉⣡⣤⢰⣿⣿⣿⣿⣿⣷⡈⢿⣿⣿⣿⣿⣷⡀
+                        ⠀⠀⠀⠀⠀⠀⠀⡴⢡⣾⣿⣿⣷⠋⠁⣿⣿⣿⣿⣿⣿⣿⠃⠀⡻⣿⣿⣿⣿⡇
+                        ⠀⠀⠀⠀⠀⢀⠜⠁⠸⣿⣿⣿⠟⠀⠀⠘⠿⣿⣿⣿⡿⠋⠰⠖⠱⣽⠟⠋⠉⡇
+                        ⠀⠀⠀⠀⡰⠉⠖⣀⠀⠀⢁⣀⠀⣴⣶⣦⠀⢴⡆⠀⠀⢀⣀⣀⣉⡽⠷⠶⠋⠀
+                        ⠀⠀⠀⡰⢡⣾⣿⣿⣿⡄⠛⠋⠘⣿⣿⡿⠀⠀⣐⣲⣤⣯⠞⠉⠁⠀⠀⠀⠀⠀
+                        ⠀⢀⠔⠁⣿⣿⣿⣿⣿⡟⠀⠀⠀⢀⣄⣀⡞⠉⠉⠉⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀
+                        ⠀⡜⠀⠀⠻⣿⣿⠿⣻⣥⣀⡀⢠⡟⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                        ⢰⠁⠀⡤⠖⠺⢶⡾⠃⠀⠈⠙⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                        ⠈⠓⠾⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀""");
 
-                System.out.printf("Pizza was invented by a %s %s chef named %s. To make a pizza, you need to take a lump" +
-                        " of %s, and make a thin, round %s %s. Then you cover it with %s sauce, %s  cheese, and fresh " +
-                                " chopped %s. Next you have to bake it in a vert hot %s. When it is done, cut it into %s " +
-                                "%s. Some kids like %s pizza the best, but my favourite is the %s pizza. If I could, I " +
-                                " would eat pizza %s times a day!"
+                System.out.printf("""
+                                Pizza was invented by a %s %s chef named %s.
+                                To make a pizza, you need to take a lump of %s, and make a thin, round %s %s.
+                                Then you cover it with %s sauce, %s  cheese, and fresh  chopped %s.
+                                Next you have to bake it in a very hot %s.
+                                When it is done, cut it into %s %s.
+                                Some kids like %s pizza the best, but my favourite is the %s pizza. 
+                                If I could, I  would eat pizza %s times a day!
+                                """
                             ,adjective1, nationality, person, noun1, adjective2, noun2, adjective3, adjective4, noun3, noun4,
                             number1, shape, food1, food2, number2);
 
