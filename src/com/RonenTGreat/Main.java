@@ -11,10 +11,10 @@ public class Main {
             System.out.println("Welcome to Mad Libs please select any of the mad libs to start");
             System.out.println("0: Quit");
             System.out.println("1:  STAR WARS");
-            System.out.println("2: ");
-            System.out.println("3: ");
-            System.out.println("4: ");
-            System.out.println("5: ");
+            System.out.println("2: PIZZA");
+            System.out.println("3: HAUNTED HOUSE");
+            System.out.println("4: MOON LANDING");
+            System.out.println("5: ROAD TRIP");
             System.out.print(">> ");
             begin = keyboard.nextInt();
             if(begin == 0)
