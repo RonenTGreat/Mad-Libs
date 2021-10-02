@@ -219,6 +219,15 @@ public class Main {
                            ,' ',  ,' ',    |           |  ||  |  ||  ||_| |_||   ^^^
                         .,,|RIP|,.|RIP|,.,,'==========='==''=='==''=='=======',,....,,,,.,ldb""");
 
+                System.out.printf("""
+                        There is a house on my %s that is %s haunted.
+                        It's the old %s place that's been %s for %s years.
+                        I can tell the house is %s because there are %s and %s %s
+                        outside, and it smells like old %s.
+                        I heard that a kid named %s %s inside and never %s back out.
+                        My friends and I are %s to %s past the house because it's so %s.
+                        """,noun1, adverb1, noun2, adjective1, noun3, adjective2, noun4, adjective3, noun5, noun6,
+                        noun7, verb1, verb2, adjective4, verb3, adjective5);
             }
 
         }
