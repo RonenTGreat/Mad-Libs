@@ -164,6 +164,43 @@ public class Main {
 
 
             }
+            else if(begin == 3){
+                System.out.println("WOW! Spooky, you are a daredevil!");
+                System.out.println("Please enter the following inputs.");
+                System.out.print("Enter a noun: ");
+                String noun1 = keyboard.next();
+                System.out.print("Enter an adverb: ");
+                String adverb1 = keyboard.next();
+                System.out.print("Enter a lastname: ");
+                String noun2 = keyboard.next();
+                System.out.print("Enter an adjective: ");
+                String adjective1 = keyboard.next();
+                System.out.print("Enter a number: ");
+                String noun3 = keyboard.next();
+                System.out.print("Enter an adjective: ");
+                String adjective2 = keyboard.next();
+                System.out.print("Enter a plural noun: ");
+                String noun4 = keyboard.next();
+                System.out.print("Enter an adjective: ");
+                String adjective3 = keyboard.next();
+                System.out.print("Enter a plural noun: ");
+                String noun5 = keyboard.next();
+                System.out.print("Enter a food: ");
+                String noun6 = keyboard.next();
+                System.out.print("Enter a firstname: ");
+                String noun7 = keyboard.next();
+                System.out.print("Enter a verb(-ed): ");
+                String verb1 = keyboard.next();
+                System.out.print("Enter a verb(-ed): ");
+                String verb2 = keyboard.next();
+                System.out.print("Enter an adjective(emotion): ");
+                String adjective4 = keyboard.next();
+                System.out.print("Enter a verb: ");
+                String verb3 = keyboard.next();
+                System.out.print("Enter an adjective: ");
+                String adjective5 = keyboard.next();
+
+            }
 
         }
 
