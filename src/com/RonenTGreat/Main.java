@@ -199,7 +199,7 @@ public class Main {
                 String verb3 = keyboard.next();
                 System.out.print("Enter an adjective: ");
                 String adjective5 = keyboard.next();
-                System.out.println("-------------------------------------------------");
+                System.out.println("---------------------------------------------------------------");
                 System.out.println("""
                                                                       ,           ^'^  _
                                                                       )               (_) ^'^
@@ -228,6 +228,57 @@ public class Main {
                         My friends and I are %s to %s past the house because it's so %s.
                         """,noun1, adverb1, noun2, adjective1, noun3, adjective2, noun4, adjective3, noun5, noun6,
                         noun7, verb1, verb2, adjective4, verb3, adjective5);
+            }
+            else if(begin == 4){
+                System.out.println("And we have landed! Let's start astronaut");
+                System.out.println("Please enter the following inputs.");
+                System.out.print("Enter a number: ");
+                String noun1 = keyboard.next();
+                System.out.print("Enter a plural noun: ");
+                String noun2 = keyboard.next();
+                System.out.print("Enter a verb: ");
+                String verb1 = keyboard.next();
+                System.out.print("Enter an adjective: ");
+                String adjective1 = keyboard.next();
+                System.out.print("Enter a number: ");
+                String noun3 = keyboard.next();
+                System.out.print("Enter a place: ");
+                String noun4 = keyboard.next();
+                System.out.print("Enter a firstname: ");
+                String noun5 = keyboard.next();
+                System.out.print("Enter a firstname: ");
+                String noun6 = keyboard.next();
+                System.out.print("Enter a verb(-ed): ");
+                String verb2 = keyboard.next();
+                System.out.print("Enter a noun: ");
+                String noun7 = keyboard.next();
+                System.out.print("Enter a verb(-ed): ");
+                String verb3 = keyboard.next();
+                System.out.print("Enter a number: ");
+                String noun8 = keyboard.next();
+                System.out.print("Enter an adjective: ");
+                String adjective2 = keyboard.next();
+                System.out.print("Enter an adjective: ");
+                String adjective3 = keyboard.next();
+                System.out.print("Enter a verb(-ed): ");
+                String verb4 = keyboard.next();
+                System.out.print("Enter a verb(-ed): ");
+                String verb5 = keyboard.next();
+                System.out.print("Enter a noun: ");
+                String noun9 = keyboard.next();
+                System.out.print("Enter a verb(-ed): ");
+                String verb6 = keyboard.next();
+                System.out.print("Enter a plural noun: ");
+                String noun10 = keyboard.next();
+                System.out.print("Enter a verb: ");
+                String verb7 = keyboard.next();
+                System.out.print("Enter am adverb: ");
+                String adverb1 = keyboard.next();
+                System.out.print("Enter a number: ");
+                String noun11 = keyboard.next();
+                System.out.println("---------------------------------------------------------------");
+
+
             }
 
         }
