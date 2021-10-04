@@ -277,8 +277,48 @@ public class Main {
                 System.out.print("Enter a number: ");
                 String noun11 = keyboard.next();
                 System.out.println("---------------------------------------------------------------");
+                System.out.println("""
+                         .--------------.
+                                         .---'  o        .    `---.
+                                      .-'    .    O  .         .   `-.
+                                   .-'     @@@@@@       .             `-.
+                                 .'@@   @@@@@@@@@@@       @@@@@@@   .    `.
+                               .'@@@  @@@@@@@@@@@@@@     @@@@@@@@@         `.
+                              /@@@  o @@@@@@@@@@@@@@     @@@@@@@@@     O     \\
+                             /        @@@@@@@@@@@@@@  @   @@@@@@@@@ @@     .  \\
+                            /@  o      @@@@@@@@@@@   .  @@  @@@@@@@@@@@     @@ \\
+                           /@@@      .   @@@@@@ o       @  @@@@@@@@@@@@@ o @@@@ \\
+                          /@@@@@                  @ .      @@@@@@@@@@@@@@  @@@@@ \\
+                          |@@@@@    O    `.-./  .        .  @@@@@@@@@@@@@   @@@  |
+                         / @@@@@        --`-'       o        @@@@@@@@@@@ @@@    . \\ \s
+                         |@ @@@@ .  @  @    `    @            @@      . @@@@@@    |  \s
+                         |   @@                         o    @@   .     @@@@@@    |   \s
+                        -
+                         |  .     @   @ @       o              @@   o   @@@@@@.   |    \s
+                         \\     @    @       @       .-.       @@@@       @@@      /
+                          |  @    @  @              `-'     . @@@@     .    .    |
+                          \\ .  o       @  @@@@  .              @@  .           . /
+                           \\      @@@    @@@@@@       .                   o     /
+                            \\    @@@@@   @@\\@@    /        O          .        /
+                             \\ o  @@@       \\ \\  /  __        .   .     .--.  /
+                              \\      .     . \\.-.---                   `--'  /
+                               `.             `-'      .                   .'
+                                 `.    o     / | `           O     .     .'
+                                   `-.      /  |        o             .-'
+                                      `-.          .         .     .-'
+                                         `---.        .       .---'
+                                              `--------------'""");
 
-
+                System.out.printf("""
+                                On July %s 1969, two American %s were the first to %s on the moon.
+                                This %s trip took %s days to reach the moon from %s
+                                As %s Armstrong and %s Aldrin %s onto the %s of the moon, Armstrong %s the famous words,
+                                "That's %s %s step for a man, one %s leap for mankind."
+                                Soon after, Aldrin %s onto the moon and together, they %s a U.S. %s on the surface.
+                                They %s %s from the moon's surface to %s back to Earth and %s returned home %s days later.
+                                """,
+                        noun1, noun2, verb1, adjective1, noun3, noun4, noun5, noun6, verb2, noun7, verb3,
+                        noun8, adjective2, adjective3, verb4, verb5, noun9, verb6, noun10, verb7, adverb1,noun11);
             }
 
         }
