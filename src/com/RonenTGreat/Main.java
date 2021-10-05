@@ -320,6 +320,27 @@ public class Main {
                         noun1, noun2, verb1, adjective1, noun3, noun4, noun5, noun6, verb2, noun7, verb3,
                         noun8, adjective2, adjective3, verb4, verb5, noun9, verb6, noun10, verb7, adverb1,noun11);
             }
+            else if(begin == 5){
+                System.out.println("We are heading one!!!");
+                System.out.println("Please enter the following inputs.");
+                String colour;
+                String number;
+                String vehicle;
+                String familyMember1;
+                String familyMember2;
+                String food;
+                String fruits;
+                String beverages;
+                String verb1;
+                String noun1;
+                String noun2;
+                String verb2;
+                String noun3;
+                String noun4;
+                String verb3;
+                String verb4;
+                String noun5;
+            }
 
         }
 
