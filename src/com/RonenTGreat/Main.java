@@ -323,23 +323,64 @@ public class Main {
             else if(begin == 5){
                 System.out.println("We are heading one!!!");
                 System.out.println("Please enter the following inputs.");
-                String colour;
-                String number;
-                String vehicle;
-                String familyMember1;
-                String familyMember2;
-                String food;
-                String fruits;
-                String beverages;
-                String verb1;
-                String noun1;
-                String noun2;
-                String verb2;
-                String noun3;
-                String noun4;
-                String verb3;
-                String verb4;
-                String noun5;
+                System.out.print("Enter a colour: ");
+                String colour = keyboard.next();
+                System.out.print("Enter a number: ");
+                String number = keyboard.next();
+                System.out.print("Enter a vehicle: ");
+                String vehicle = keyboard.next();
+                System.out.print("Enter a family member: ");
+                String familyMember1 = keyboard.next();
+                System.out.print("Enter a family member: ");
+                String familyMember2 = keyboard.next();
+                System.out.print("Enter a food: ");
+                String food = keyboard.next();
+                System.out.print("Enter a fruit(plural): ");
+                String fruits = keyboard.next();
+                System.out.print("Enter a beverage: ");
+                String beverages = keyboard.next();
+                System.out.print("Enter a verb: ");
+                String verb1 = keyboard.next();
+                System.out.print("Enter a noun: ");
+                String noun1 = keyboard.next();
+                System.out.print("Enter a noun: ");
+                String noun2 = keyboard.next();
+                System.out.print("Enter a verb: ");
+                String verb2 = keyboard.next();
+                System.out.print("Enter a noun: ");
+                String noun3 = keyboard.next();
+                System.out.print("Enter a noun: ");
+                String noun4 = keyboard.next();
+                System.out.print("Enter a verb: ");
+                String verb3 = keyboard.next();
+                System.out.print("Enter a verb: ");
+                String verb4 = keyboard.next();
+                System.out.print("Enter a noun: ");
+                String noun5 = keyboard.next();
+                System.out.println("---------------------------------------------------------------");
+                System.out.println("""
+                             ____________________
+                                             //|           |        \\
+                                           //  |           |          \\
+                              ___________//____|___________|__________()\\__________________
+                            /__________________|_=_________|_=___________|_________________{}
+                            [           ______ |           | .           | ==  ______      { }
+                          __[__        /##  ##\\|           |             |    /##  ##\\    _{# }_
+                         {_____)______|##    ##|___________|_____________|___|##    ##|__(______}
+                                     /  ##__##                              /  ##__##        \\
+                        ----------------------------------------------------------------------------""");
+                System.out.printf("""
+                        My family is taking a trip to %s Beach, %s hours away.
+                        We are riding in a %s with my %s and %s.
+                        My parents packed a cooler with %s sandwiches, %s, and %s.
+                        They always %s us to wear %s and a %s so we don't get sunburned.
+                        During the drive, we will %s games like %s and "Count the %s."
+                        I can't wait to get there so I can go %s in the ocean and %s along the beach and collect %s 
+                        I find in the sand."""
+                        , colour, number, vehicle, familyMember1, familyMember2,
+                        food, fruits, beverages, verb1, noun1, noun2, verb2, noun3, noun4, verb3, verb4, noun5);
+
+
             }
 
         }
